@@ -8,20 +8,79 @@
 
 /* Begin PBXBuildFile section */
 		610E3F371CD03E8000792C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E3F361CD03E8000792C16 /* AppDelegate.swift */; };
-		610E3F391CD03E8000792C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E3F381CD03E8000792C16 /* ViewController.swift */; };
+		610E3F391CD03E8000792C16 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E3F381CD03E8000792C16 /* MainViewController.swift */; };
 		610E3F3C1CD03E8000792C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610E3F3A1CD03E8000792C16 /* Main.storyboard */; };
 		610E3F3E1CD03E8000792C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610E3F3D1CD03E8000792C16 /* Assets.xcassets */; };
 		610E3F411CD03E8000792C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610E3F3F1CD03E8000792C16 /* LaunchScreen.storyboard */; };
+		610E3F561CD03E9F00792C16 /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610E3F4F1CD03E8F00792C16 /* C4.framework */; };
+		610E3F571CD03E9F00792C16 /* C4.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 610E3F4F1CD03E8F00792C16 /* C4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		610E3F5E1CD065B300792C16 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E3F5D1CD065B300792C16 /* IntroViewController.swift */; };
+		610E3F601CD0761500792C16 /* WhatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E3F5F1CD0761500792C16 /* WhatViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		610E3F4E1CD03E8F00792C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 610E3F481CD03E8F00792C16 /* C4iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 614F824319DB5ED3001DF1D4;
+			remoteInfo = C4;
+		};
+		610E3F501CD03E8F00792C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 610E3F481CD03E8F00792C16 /* C4iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 614F824E19DB5ED4001DF1D4;
+			remoteInfo = C4Tests;
+		};
+		610E3F521CD03E8F00792C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 610E3F481CD03E8F00792C16 /* C4iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A96F505A1B5385A5002B3A46;
+			remoteInfo = C4App;
+		};
+		610E3F541CD03E9700792C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 610E3F481CD03E8F00792C16 /* C4iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 614F824219DB5ED3001DF1D4;
+			remoteInfo = C4;
+		};
+		610E3F581CD03E9F00792C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 610E3F481CD03E8F00792C16 /* C4iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 614F824219DB5ED3001DF1D4;
+			remoteInfo = C4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		610E3F5A1CD03E9F00792C16 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				610E3F571CD03E9F00792C16 /* C4.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		610E3F331CD03E8000792C16 /* CocoaConf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaConf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		610E3F361CD03E8000792C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		610E3F381CD03E8000792C16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		610E3F381CD03E8000792C16 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		610E3F3B1CD03E8000792C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		610E3F3D1CD03E8000792C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		610E3F401CD03E8000792C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		610E3F421CD03E8000792C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610E3F481CD03E8F00792C16 /* C4iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = C4iOS.xcodeproj; path = ../C4iOS/C4iOS.xcodeproj; sourceTree = "<group>"; };
+		610E3F5D1CD065B300792C16 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		610E3F5F1CD0761500792C16 /* WhatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				610E3F561CD03E9F00792C16 /* C4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +98,7 @@
 		610E3F2A1CD03E8000792C16 = {
 			isa = PBXGroup;
 			children = (
+				610E3F481CD03E8F00792C16 /* C4iOS.xcodeproj */,
 				610E3F351CD03E8000792C16 /* CocoaConf */,
 				610E3F341CD03E8000792C16 /* Products */,
 			);
@@ -55,13 +116,25 @@
 			isa = PBXGroup;
 			children = (
 				610E3F361CD03E8000792C16 /* AppDelegate.swift */,
-				610E3F381CD03E8000792C16 /* ViewController.swift */,
 				610E3F3A1CD03E8000792C16 /* Main.storyboard */,
 				610E3F3D1CD03E8000792C16 /* Assets.xcassets */,
 				610E3F3F1CD03E8000792C16 /* LaunchScreen.storyboard */,
 				610E3F421CD03E8000792C16 /* Info.plist */,
+				610E3F381CD03E8000792C16 /* MainViewController.swift */,
+				610E3F5D1CD065B300792C16 /* IntroViewController.swift */,
+				610E3F5F1CD0761500792C16 /* WhatViewController.swift */,
 			);
 			path = CocoaConf;
+			sourceTree = "<group>";
+		};
+		610E3F491CD03E8F00792C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				610E3F4F1CD03E8F00792C16 /* C4.framework */,
+				610E3F511CD03E8F00792C16 /* C4Tests.xctest */,
+				610E3F531CD03E8F00792C16 /* C4App.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +147,13 @@
 				610E3F2F1CD03E8000792C16 /* Sources */,
 				610E3F301CD03E8000792C16 /* Frameworks */,
 				610E3F311CD03E8000792C16 /* Resources */,
+				610E3F5A1CD03E9F00792C16 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				610E3F551CD03E9700792C16 /* PBXTargetDependency */,
+				610E3F591CD03E9F00792C16 /* PBXTargetDependency */,
 			);
 			name = CocoaConf;
 			productName = CocoaConf;
@@ -110,12 +186,42 @@
 			mainGroup = 610E3F2A1CD03E8000792C16;
 			productRefGroup = 610E3F341CD03E8000792C16 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 610E3F491CD03E8F00792C16 /* Products */;
+					ProjectRef = 610E3F481CD03E8F00792C16 /* C4iOS.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				610E3F321CD03E8000792C16 /* CocoaConf */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		610E3F4F1CD03E8F00792C16 /* C4.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = C4.framework;
+			remoteRef = 610E3F4E1CD03E8F00792C16 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		610E3F511CD03E8F00792C16 /* C4Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = C4Tests.xctest;
+			remoteRef = 610E3F501CD03E8F00792C16 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		610E3F531CD03E8F00792C16 /* C4App.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = C4App.app;
+			remoteRef = 610E3F521CD03E8F00792C16 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		610E3F311CD03E8000792C16 /* Resources */ = {
@@ -135,12 +241,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				610E3F391CD03E8000792C16 /* ViewController.swift in Sources */,
+				610E3F391CD03E8000792C16 /* MainViewController.swift in Sources */,
 				610E3F371CD03E8000792C16 /* AppDelegate.swift in Sources */,
+				610E3F601CD0761500792C16 /* WhatViewController.swift in Sources */,
+				610E3F5E1CD065B300792C16 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		610E3F551CD03E9700792C16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = C4;
+			targetProxy = 610E3F541CD03E9700792C16 /* PBXContainerItemProxy */;
+		};
+		610E3F591CD03E9F00792C16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = C4;
+			targetProxy = 610E3F581CD03E9F00792C16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		610E3F3A1CD03E8000792C16 /* Main.storyboard */ = {
@@ -251,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = CocoaConf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jabt.CocoaConf;
@@ -262,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = CocoaConf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jabt.CocoaConf;
