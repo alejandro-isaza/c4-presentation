@@ -1,2 +1,2 @@
-# c4-presentation
-Slides for C4 flash talk
+# CocoaConf Seattle C4 Lightning Talk
+
