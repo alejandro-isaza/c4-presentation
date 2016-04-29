@@ -3,7 +3,7 @@
 import UIKit
 
 class MainViewController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource {
-    let pages = ["Intro", "What", "How"]
+    let pages = ["Intro", "What", "How", "More"]
 
     lazy var contentViewControllers: [UIViewController] = {
         var viewControllers = [UIViewController]()

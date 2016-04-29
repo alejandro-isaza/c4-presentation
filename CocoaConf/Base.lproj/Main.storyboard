@@ -149,6 +149,62 @@
             </objects>
             <point key="canvasLocation" x="-232" y="2078"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Rq2-Ah-0gx">
+            <objects>
+                <viewController storyboardIdentifier="More" id="Wb6-dI-0cc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nv4-Ik-b4l"/>
+                        <viewControllerLayoutGuide type="bottom" id="rN5-sK-WY1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZEm-89-Tar">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="More" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="su1-Xs-ji3">
+                                <rect key="frame" x="252" y="20" width="95" height="55"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" alignment="top" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="6p7-PP-0X6">
+                                <rect key="frame" x="-45" y="190" width="509" height="220"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="c4ios.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWY-GI-dik">
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="47"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="34"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="github.com/C4Framework/C4iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PkZ-IC-o4C">
+                                        <rect key="frame" x="0.0" y="87" width="509" height="47"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="34"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="c4studio.co/alpha/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHw-aB-18A">
+                                        <rect key="frame" x="0.0" y="173" width="284" height="47"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="34"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6p7-PP-0X6" firstAttribute="centerY" secondItem="ZEm-89-Tar" secondAttribute="centerY" id="0ud-Jy-31d"/>
+                            <constraint firstItem="su1-Xs-ji3" firstAttribute="centerX" secondItem="ZEm-89-Tar" secondAttribute="centerX" id="2RH-2j-pFz"/>
+                            <constraint firstItem="6p7-PP-0X6" firstAttribute="centerX" secondItem="ZEm-89-Tar" secondAttribute="centerX" id="NGN-1f-U9a"/>
+                            <constraint firstItem="su1-Xs-ji3" firstAttribute="top" secondItem="nv4-Ik-b4l" secondAttribute="bottom" constant="20" id="Rem-UT-3Ru"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Npj-Q7-E16" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-232" y="2767"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Logo" width="600" height="600"/>
