@@ -105,6 +105,50 @@
             </objects>
             <point key="canvasLocation" x="-232" y="1395"/>
         </scene>
+        <!--How View Controller-->
+        <scene sceneID="2er-7m-phA">
+            <objects>
+                <viewController storyboardIdentifier="How" id="n6w-lp-qFZ" customClass="HowViewController" customModule="CocoaConf" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nhU-9l-hZK"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qee-M2-LHW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xba-kt-ubj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="How" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Qd-Om-qme">
+                                <rect key="frame" x="260" y="20" width="81.5" height="55"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCo-cs-gwF">
+                                <rect key="frame" x="60" y="83" width="480" height="497"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="dCo-cs-gwF" secondAttribute="trailing" constant="40" id="1mU-tW-5JE"/>
+                            <constraint firstItem="Qee-M2-LHW" firstAttribute="top" secondItem="dCo-cs-gwF" secondAttribute="bottom" constant="20" id="CBD-hg-D2L"/>
+                            <constraint firstItem="dCo-cs-gwF" firstAttribute="leading" secondItem="xba-kt-ubj" secondAttribute="leadingMargin" constant="40" id="TZw-Lu-NFH"/>
+                            <constraint firstItem="4Qd-Om-qme" firstAttribute="centerX" secondItem="xba-kt-ubj" secondAttribute="centerX" id="VEj-On-MdU"/>
+                            <constraint firstItem="dCo-cs-gwF" firstAttribute="top" secondItem="4Qd-Om-qme" secondAttribute="bottom" constant="8" id="m3d-xm-5jd"/>
+                            <constraint firstItem="4Qd-Om-qme" firstAttribute="top" secondItem="nhU-9l-hZK" secondAttribute="bottom" constant="20" id="wvC-2f-3ll"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="label" destination="dCo-cs-gwF" id="xOr-m9-TRv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vgG-QR-Zdp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-232" y="2078"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Logo" width="600" height="600"/>

@@ -3,21 +3,15 @@
 import UIKit
 
 class MainViewController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource {
+    let pages = ["Intro", "What", "How"]
+
     lazy var contentViewControllers: [UIViewController] = {
-        return [
-            self.createIntroViewController(),
-            self.createWhatViewController()
-        ]
+        var viewControllers = [UIViewController]()
+        for identifier in self.pages {
+            viewControllers.append(self.storyboard!.instantiateViewControllerWithIdentifier(identifier))
+        }
+        return viewControllers
     }()
-
-    func createIntroViewController() -> UIViewController {
-        return storyboard!.instantiateViewControllerWithIdentifier("Intro")
-    }
-
-    func createWhatViewController() -> UIViewController {
-        return storyboard!.instantiateViewControllerWithIdentifier("What")
-    }
-
 
     override func viewDidLoad() {
         super.viewDidLoad()

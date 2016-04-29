@@ -22,6 +22,13 @@ class WhatViewController: CanvasController {
         designTitle?.center = canvas.center + Vector(x: radius, y: -radius)
         canvas.add(designTitle)
 
+        reset()
+        canvas.addTapGestureRecognizer { _,_,_ in
+            self.animate()
+        }
+    }
+
+    func reset() {
         let codeRange = 0..<240
         let designRange = 240..<360
         for wedge in wedges[codeRange] {
@@ -29,10 +36,6 @@ class WhatViewController: CanvasController {
         }
         for wedge in wedges[designRange] {
             wedge.fillColor = C4Pink
-        }
-
-        canvas.addTapGestureRecognizer { _,_,_ in
-            self.animate()
         }
     }
 
@@ -58,5 +61,10 @@ class WhatViewController: CanvasController {
             animations.append(ViewAnimation(duration: duration) { wedge.fillColor = C4Pink })
         }
         ViewAnimationSequence(animations: animations).animate()
+    }
+
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        reset()
     }
 }
