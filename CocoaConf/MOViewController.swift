@@ -1,10 +1,4 @@
-//
-//  MOViewController.swift
-//  CocoaConf
-//
-//  Created by travis on 2016-05-06.
 //  Copyright © 2016 JABT Labs. All rights reserved.
-//
 
 import Foundation
 import C4

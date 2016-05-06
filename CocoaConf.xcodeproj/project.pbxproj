@@ -22,14 +22,10 @@
 		1FC58C9B1CDD104E00C6C8B4 /* example5_before.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1FC58C991CDD104E00C6C8B4 /* example5_before.rtf */; };
 		1FC58C9D1CDD119F00C6C8B4 /* C4SiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC58C9C1CDD119F00C6C8B4 /* C4SiteController.swift */; };
 		1FC58C9F1CDD138F00C6C8B4 /* HaloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC58C9E1CDD138F00C6C8B4 /* HaloViewController.swift */; };
-		1FC58CA11CDD13CB00C6C8B4 /* halo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FC58CA01CDD13CB00C6C8B4 /* halo.mp4 */; };
 		1FC58CA31CDD14BB00C6C8B4 /* MOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC58CA21CDD14BB00C6C8B4 /* MOViewController.swift */; };
-		1FC58CA51CDD150200C6C8B4 /* mo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FC58CA41CDD150200C6C8B4 /* mo.mp4 */; };
 		1FC58CA71CDD153700C6C8B4 /* C4StudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC58CA61CDD153700C6C8B4 /* C4StudioViewController.swift */; };
 		1FC58CA91CDD1CD600C6C8B4 /* CosmosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC58CA81CDD1CD600C6C8B4 /* CosmosViewController.swift */; };
-		1FC58CAB1CDD1D2500C6C8B4 /* cosmos.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FC58CAA1CDD1D2500C6C8B4 /* cosmos.mp4 */; };
 		1FC58CAD1CDD1E1D00C6C8B4 /* C4StudioMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC58CAC1CDD1E1D00C6C8B4 /* C4StudioMovieViewController.swift */; };
-		1FC58CAF1CDD1E3C00C6C8B4 /* C4Studio.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1FC58CAE1CDD1E3C00C6C8B4 /* C4Studio.mov */; };
 		610E3F371CD03E8000792C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E3F361CD03E8000792C16 /* AppDelegate.swift */; };
 		610E3F391CD03E8000792C16 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E3F381CD03E8000792C16 /* MainViewController.swift */; };
 		610E3F3C1CD03E8000792C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610E3F3A1CD03E8000792C16 /* Main.storyboard */; };
@@ -38,6 +34,10 @@
 		610E3F5E1CD065B300792C16 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E3F5D1CD065B300792C16 /* IntroViewController.swift */; };
 		610E3F601CD0761500792C16 /* WhatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E3F5F1CD0761500792C16 /* WhatViewController.swift */; };
 		610E3F671CD149E900792C16 /* HowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E3F661CD149E900792C16 /* HowViewController.swift */; };
+		61CCD64A1CDD3DD700F18FB1 /* C4Studio.mov in Resources */ = {isa = PBXBuildFile; fileRef = 61CCD6461CDD3DD700F18FB1 /* C4Studio.mov */; };
+		61CCD64B1CDD3DD700F18FB1 /* cosmos.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 61CCD6471CDD3DD700F18FB1 /* cosmos.mp4 */; };
+		61CCD64C1CDD3DD700F18FB1 /* halo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 61CCD6481CDD3DD700F18FB1 /* halo.mp4 */; };
+		61CCD64D1CDD3DD700F18FB1 /* mo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 61CCD6491CDD3DD700F18FB1 /* mo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,14 +68,10 @@
 		1FC58C991CDD104E00C6C8B4 /* example5_before.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = example5_before.rtf; sourceTree = "<group>"; };
 		1FC58C9C1CDD119F00C6C8B4 /* C4SiteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4SiteController.swift; sourceTree = "<group>"; };
 		1FC58C9E1CDD138F00C6C8B4 /* HaloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaloViewController.swift; sourceTree = "<group>"; };
-		1FC58CA01CDD13CB00C6C8B4 /* halo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = halo.mp4; sourceTree = "<group>"; };
 		1FC58CA21CDD14BB00C6C8B4 /* MOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOViewController.swift; sourceTree = "<group>"; };
-		1FC58CA41CDD150200C6C8B4 /* mo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mo.mp4; sourceTree = "<group>"; };
 		1FC58CA61CDD153700C6C8B4 /* C4StudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4StudioViewController.swift; sourceTree = "<group>"; };
 		1FC58CA81CDD1CD600C6C8B4 /* CosmosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosViewController.swift; sourceTree = "<group>"; };
-		1FC58CAA1CDD1D2500C6C8B4 /* cosmos.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cosmos.mp4; sourceTree = "<group>"; };
 		1FC58CAC1CDD1E1D00C6C8B4 /* C4StudioMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C4StudioMovieViewController.swift; sourceTree = "<group>"; };
-		1FC58CAE1CDD1E3C00C6C8B4 /* C4Studio.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = C4Studio.mov; sourceTree = "<group>"; };
 		50EA44FE7CA7703471703ECB /* Pods-CocoaConf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaConf.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaConf/Pods-CocoaConf.release.xcconfig"; sourceTree = "<group>"; };
 		610E3F331CD03E8000792C16 /* CocoaConf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaConf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		610E3F361CD03E8000792C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +83,10 @@
 		610E3F5D1CD065B300792C16 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		610E3F5F1CD0761500792C16 /* WhatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatViewController.swift; sourceTree = "<group>"; };
 		610E3F661CD149E900792C16 /* HowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowViewController.swift; sourceTree = "<group>"; };
+		61CCD6461CDD3DD700F18FB1 /* C4Studio.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = C4Studio.mov; sourceTree = "<group>"; };
+		61CCD6471CDD3DD700F18FB1 /* cosmos.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cosmos.mp4; sourceTree = "<group>"; };
+		61CCD6481CDD3DD700F18FB1 /* halo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = halo.mp4; sourceTree = "<group>"; };
+		61CCD6491CDD3DD700F18FB1 /* mo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mo.mp4; sourceTree = "<group>"; };
 		AB15FC898FD72B685D96099E /* Pods-CocoaConf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaConf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaConf/Pods-CocoaConf.debug.xcconfig"; sourceTree = "<group>"; };
 		CC7714A4BBAF0EB9973A5C74 /* Pods_CocoaConf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaConf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -137,8 +137,6 @@
 				610E3F361CD03E8000792C16 /* AppDelegate.swift */,
 				610E3F3A1CD03E8000792C16 /* Main.storyboard */,
 				610E3F3D1CD03E8000792C16 /* Assets.xcassets */,
-				1FC58CA41CDD150200C6C8B4 /* mo.mp4 */,
-				1FC58CA01CDD13CB00C6C8B4 /* halo.mp4 */,
 				610E3F3F1CD03E8000792C16 /* LaunchScreen.storyboard */,
 				610E3F421CD03E8000792C16 /* Info.plist */,
 				610E3F381CD03E8000792C16 /* MainViewController.swift */,
@@ -148,11 +146,9 @@
 				1FC58C9C1CDD119F00C6C8B4 /* C4SiteController.swift */,
 				1FC58C9E1CDD138F00C6C8B4 /* HaloViewController.swift */,
 				1FC58CA21CDD14BB00C6C8B4 /* MOViewController.swift */,
-				1FC58CAA1CDD1D2500C6C8B4 /* cosmos.mp4 */,
 				1FC58CA81CDD1CD600C6C8B4 /* CosmosViewController.swift */,
 				1FC58CA61CDD153700C6C8B4 /* C4StudioViewController.swift */,
 				1FC58CAC1CDD1E1D00C6C8B4 /* C4StudioMovieViewController.swift */,
-				1FC58CAE1CDD1E3C00C6C8B4 /* C4Studio.mov */,
 			);
 			path = CocoaConf;
 			sourceTree = "<group>";
@@ -160,6 +156,10 @@
 		6131C37D1CD1550700F04650 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				61CCD6461CDD3DD700F18FB1 /* C4Studio.mov */,
+				61CCD6471CDD3DD700F18FB1 /* cosmos.mp4 */,
+				61CCD6481CDD3DD700F18FB1 /* halo.mp4 */,
+				61CCD6491CDD3DD700F18FB1 /* mo.mp4 */,
 				1FC58C801CDD0DD300C6C8B4 /* example0_after.rtf */,
 				1FC58C811CDD0DD300C6C8B4 /* example0_before.rtf */,
 				1FC58C821CDD0DD300C6C8B4 /* example1_after.rtf */,
@@ -247,24 +247,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC58C961CDD0DD300C6C8B4 /* example4_before.rtf in Resources */,
-				1FC58CAB1CDD1D2500C6C8B4 /* cosmos.mp4 in Resources */,
 				610E3F411CD03E8000792C16 /* LaunchScreen.storyboard in Resources */,
 				1FC58C9A1CDD104E00C6C8B4 /* example5_after.rtf in Resources */,
-				1FC58CAF1CDD1E3C00C6C8B4 /* C4Studio.mov in Resources */,
 				1FC58C8F1CDD0DD300C6C8B4 /* example1_before.rtf in Resources */,
 				1FC58C931CDD0DD300C6C8B4 /* example3_before.rtf in Resources */,
 				1FC58C911CDD0DD300C6C8B4 /* example2_before.rtf in Resources */,
 				1FC58C8C1CDD0DD300C6C8B4 /* example0_after.rtf in Resources */,
+				61CCD64C1CDD3DD700F18FB1 /* halo.mp4 in Resources */,
 				1FC58C971CDD0DD300C6C8B4 /* example4_after.rtf in Resources */,
+				61CCD64D1CDD3DD700F18FB1 /* mo.mp4 in Resources */,
 				1FC58C9B1CDD104E00C6C8B4 /* example5_before.rtf in Resources */,
 				1FC58C901CDD0DD300C6C8B4 /* example2_after.rtf in Resources */,
 				610E3F3E1CD03E8000792C16 /* Assets.xcassets in Resources */,
-				1FC58CA11CDD13CB00C6C8B4 /* halo.mp4 in Resources */,
+				61CCD64A1CDD3DD700F18FB1 /* C4Studio.mov in Resources */,
 				1FC58C921CDD0DD300C6C8B4 /* example3_after.rtf in Resources */,
 				1FC58C8D1CDD0DD300C6C8B4 /* example0_before.rtf in Resources */,
+				61CCD64B1CDD3DD700F18FB1 /* cosmos.mp4 in Resources */,
 				1FC58C8E1CDD0DD300C6C8B4 /* example1_after.rtf in Resources */,
 				610E3F3C1CD03E8000792C16 /* Main.storyboard in Resources */,
-				1FC58CA51CDD150200C6C8B4 /* mo.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
