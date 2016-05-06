@@ -58,5 +58,4 @@ class HowViewController: CanvasController {
         label.attributedText = string
 
     }
-
 }
