@@ -10,15 +10,54 @@ class HowViewController: CanvasController {
     var shape: TextShape!
     var current = -1
     var before = false
+    var tap: UITapGestureRecognizer!
+    var pan: UIPanGestureRecognizer!
+    weak var pageViewController: MainViewController!
 
     override func setup() {
-        canvas.addTapGestureRecognizer { _, location, _ in
+        tap = canvas.addTapGestureRecognizer { _, location, _ in
             if location.x > self.canvas.center.x {
                 self.next()
             } else {
                 self.prev()
             }
         }
+
+        canvas.addLongPressGestureRecognizer { locations, center, state in
+            if state == .Began {
+                var vcs = self.pageViewController.pageViewController(self.pageViewController, viewControllerAfterViewController: self.pageViewController.viewControllers!.first!)!
+                var direction = UIPageViewControllerNavigationDirection.Forward
+                if center.x < self.canvas.center.x {
+                    direction = .Reverse
+                    vcs = self.pageViewController.pageViewController(self.pageViewController, viewControllerBeforeViewController: self.pageViewController.viewControllers!.first!)!
+                }
+                self.pageViewController.setViewControllers([vcs], direction: direction, animated: true, completion: nil)
+            }
+        }
+
+        pan = canvas.addPanGestureRecognizer { (locations, center, translation, velocity, state) in
+            if state == .Began {
+                for location in locations {
+                    ShapeLayer.disableActions = true
+                    let c = Circle(center: location, radius: 25)
+                    self.canvas.add(c)
+                    ShapeLayer.disableActions = false
+
+                    let a = ViewAnimation(duration: 0.5) {
+                        c.center += Vector(x: velocity.x / 10.0, y: velocity.y / 10.0)
+                        c.opacity = 0.0
+                        c.lineWidth = 50.0
+                    }
+
+                    a.addCompletionObserver() {
+                        c.removeFromSuperview()
+                    }
+                    a.animate()
+                }
+            }
+        }
+
+
     }
 
     func prev() {

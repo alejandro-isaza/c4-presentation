@@ -3,12 +3,16 @@
 import UIKit
 
 class MainViewController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource {
-    let pages = ["Intro", "What", "How", "More"]
+    let pages = ["Intro", "What", "How", "Cosmos", "Halo", "MO", "C4Site", "C4Studio", "C4StudioMovie", "More"]
 
     lazy var contentViewControllers: [UIViewController] = {
         var viewControllers = [UIViewController]()
         for identifier in self.pages {
-            viewControllers.append(self.storyboard!.instantiateViewControllerWithIdentifier(identifier))
+            let vc = self.storyboard!.instantiateViewControllerWithIdentifier(identifier)
+            viewControllers.append(vc)
+            if let howViewController = vc as? HowViewController {
+                howViewController.pageViewController = self
+            }
         }
         return viewControllers
     }()
